@@ -1,7 +1,7 @@
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': 'bab3f9fe2amshe2e1665215196a5p1391adjsn8096930e247a',
+        'X-RapidAPI-Key': 'fadae6d329msh467093d1b7cb3cfp19f572jsnb8ae96a96916',
         'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
     }
 };
@@ -33,5 +33,4 @@ submit.addEventListener("click", (e) => {
     e.preventDefault()
     getWeather(city.value)
 })
-
 getWeather("Ghaziabad")
